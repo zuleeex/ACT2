@@ -6,8 +6,8 @@
 using namespace std;
 
 int main() {
-    string nombreArchivo = "d:/ACTIVIDAD2/100.txt";
-    string archivoPromedio = "d:/ACTIVIDAD2/promedio.txt";
+    string nombreArchivo = "d:/ACT2/100.txt";
+    string archivoPromedio = "d:/ACT2/promedio.txt";
 
     ifstream archivoDatos(nombreArchivo);
     if (!archivoDatos.is_open()) {
